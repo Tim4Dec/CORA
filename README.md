@@ -108,3 +108,5 @@ Due to ethical considerations, the raw data files of our Sim-CBT dataset have be
   ```
 
 Additionally, the trained model can be accessed via a website interface located in the `web/` directory.
+
+![](./website.png)

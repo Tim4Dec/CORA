@@ -1,0 +1,1 @@
+{'emotional reasoning': 248, 'all-or-nothing thinking': 324, 'mind reading': 304, 'labeling': 327, 'overgeneralizing': 384, 'fortune telling': 324, 'personalizing': 268, 'disqualifying the positive': 132, 'catastrophizing': 196, 'negative feeling or emotion': 384, 'blaming': 84, 'magnification': 48, 'comparing and despairing': 40, 'should statements': 52}
