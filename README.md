@@ -31,7 +31,7 @@ Due to ethical considerations, the raw data files of our Sim-CBT dataset have be
 
 - Set up the LLaMA-Factory environment following the instructions provided in the [LLaMA-Factory repository](https://github.com/hiyouga/LLaMA-Factory), and navigate to the LLaMA-Factory directory by executing: `cd src/LLaMA-Factory`.
 
-- Place the JSON files from our dataset into the `**/LLaMA-Factory/data/` directory, and update the data configuration in `**/LLaMA-Factory/data/dataset_info.json`.
+- Place the JSON files from our dataset into the `src/LLaMA-Factory/data/` directory, and update the data configuration in `src/LLaMA-Factory/data/dataset_info.json`.
 
 - To initiate model training, execute the following command:
 

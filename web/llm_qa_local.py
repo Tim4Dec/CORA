@@ -62,9 +62,9 @@ def set_input_format(model_name):
 def load_model(model_name):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if model_name == "chatglm3-6b":
-        model = AutoModelForCausalLM.from_pretrained("***/chatglm3-6b", trust_remote_code=True)
-        lora_path = "***/LLaMA-Factory/saves/ChatGLM3-6B-Chat/lora/***"
-        tokenizer = AutoTokenizer.from_pretrained("***/chatglm3-6b", trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained("models/chatglm3-6b", trust_remote_code=True)
+        lora_path = "src/LLaMA-Factory/saves/ChatGLM3-6B-Chat/lora/***"
+        tokenizer = AutoTokenizer.from_pretrained("models/chatglm3-6b", trust_remote_code=True)
         model.to(device)
     model = PeftModel.from_pretrained(model, lora_path)
     return model, tokenizer
@@ -121,4 +121,4 @@ if __name__ == "__main__":
             {cur_response}
             """
             message_placeholder.markdown(cur_response)
-            st.session_state.messages.append({"role": "robot", "content": cur_response, "avatar": robot_avator})
+            st.session_state.messages.append({"role": "robot", "content": cur_response, "avatar": robot_avator})    
