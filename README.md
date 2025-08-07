@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Dataset Access
 
-Due to ethical considerations, the raw data files of our Sim-CBT dataset have been encrypted. Only a limited numer of example dialogues are provided in the `data/samples.json` file for demonstration purpose. Researchers interested in accessing the complete dataset are required to adhere to the following conditions to obtain the dataset password:
+Due to ethical considerations, the raw data files of our GARD dataset have been encrypted. Only a limited numer of example dialogues are provided in the `data/samples.json` file for demonstration purpose. Researchers interested in accessing the complete dataset are required to adhere to the following conditions to obtain the dataset password:
 
 1. Obtain authorization from the source data provider of the [C2D2 dataset](https://github.com/bcwangavailable/C2D2-Cognitive-Distortion).
 2. Agree to restrict the use of the dataset to academic purposes only, and ensure that it will not be shared or disclosed to any third parties without explicit permission.
@@ -106,4 +106,6 @@ Due to ethical considerations, the raw data files of our Sim-CBT dataset have be
       --template default \
       --finetuning_type lora
   ```
-
+  The interactive website developed to facilitate user participation in our experiments is presented below.
+  
+  ![](website.png)
